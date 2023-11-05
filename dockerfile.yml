@@ -1,0 +1,6 @@
+FROM spack/ubuntu-jammy
+
+RUN mkdir /app
+
+
+CMD [ "/bin/bash" ]
