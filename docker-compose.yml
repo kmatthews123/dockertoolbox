@@ -4,6 +4,7 @@ services:
   app:
     build: 
       context: .
+      dockerfile: dockerfile
     image: keithmatthews1342/toolbox:latest
     volumes:
       - ${PWD}:/app

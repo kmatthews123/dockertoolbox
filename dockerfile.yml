@@ -1,4 +1,4 @@
-FROM spack/ubuntu-jammy
+FROM ubuntu:jammy
 
 RUN mkdir /app
 
