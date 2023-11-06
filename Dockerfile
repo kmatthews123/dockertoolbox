@@ -6,5 +6,5 @@ RUN apt-get -yq update && apt-get -yq install \
         wget zsh \
         git sudo \
         htop nano
-
-CMD ["/bin/zsh"]
+WORKDIR /app
+CMD ["/bin/bash"]
