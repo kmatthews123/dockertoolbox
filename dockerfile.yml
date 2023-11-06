@@ -1,6 +1,0 @@
-FROM ubuntu:jammy
-## test
-RUN mkdir /app
-
-
-CMD [ "/bin/bash" ]
